@@ -1,3 +1,3 @@
-# CMake CUDA Library Templae
+# CMake CUDA Library Template
 ---
-Provides an example of a CMake project that builds a CUDA library, along with an executable that uses it.
+Provides an example of a CMake project that builds a CUDA library with one kernel, along with an executable that uses it.
