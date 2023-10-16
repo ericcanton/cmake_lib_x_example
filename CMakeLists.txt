@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.18.0) # for CUDA complaint about CUDA compute capability
 project(cmakeLibQuickStart VERSION 0.1.0 LANGUAGES C CXX CUDA)
+
+# for templates
+set(CMAKE_CXX_STANDARD 20)
 
 include(CTest)
 enable_testing()
