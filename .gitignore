@@ -1,1 +1,6 @@
 build/**
+*.cmake
+**/CMakeCache.txt
+CMakeFiles/
+DartConfiguration.tcl
+Makefile
